@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header .navigation{
+    margin-bottom: 20px;
+text-align: end;
+border: black;
+margin-top: 10px;
+}
+header .navigation a{
+    margin: 10px;
+    text-decoration: none;
+    padding: 2px;
+    color: black;
+}
+header .navigation a:hover{
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.welcomtext{
+    font-style:oblique;
+    background-color: white;
+}
+
+.welcomtext h3{
+    text-align: center;
+    padding: 5px;
+}
+.welcomtext h4{
+    text-align: center;
+    padding: 5px;
+}
+.welcomtext p{
+    text-align: center;
+    padding: 5px;
+}
+.menu img{
+    border-radius: 100%;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.menu{
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    gap:20px;
+    box-shadow: 1px 2px 3px 1px rgba(20, 62, 70, 0.7);
+    background-color: aquamarine;
+}
+.menu p{
+    font-style: oblique;
+    line-height: 1.7;
+    margin-top: 50px;
+}
+.btn{
+    margin-left: 35%;
+    margin-top: 10px;
+    background-color: rgb(214, 235, 157);
+    color: black;
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    
+}
